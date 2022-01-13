@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar a {
+    font-size: 3.5rem;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    left: 230px;
+    margin-right: 100px;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+}
+
+
+#front::before {
+    content: "";
+    background: url(resort.jpg) no-repeat center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 82%;
+    width: 195%;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+#front h2 {
+    display: block;
+    width: 660px;
+    font-size: 3rem;
+    margin: -199px 442px;
+    color: white;
+    text-shadow: 2px 2px 18px black;
+    margin-bottom: 600px;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    letter-spacing: .08em;
+    animation: typing 3.5s steps(40 , end), blink-caret .75s step-end infinite;
+}
+
+#front h1{
+    display: block;
+    width: 884px;
+    font-size: 6rem;
+    margin: 225px 314px;
+    color: white;
+    text-shadow: 2px 2px 18px black;
+}
+
+#two {
+    height: 1000px;
+    width: 145%;
+    margin-top: 400px;
+    /* background-color: #95b8be66; */
+    /* background: linear-gradient(#95b8be66 , white , #889ca066); */
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+#two h1 {
+    font-size: 5rem;
+    width: 852px;
+    display: block;
+    margin: 100px auto;
+    color: white;
+    text-shadow: 3px 5px 10px black;
+    position: relative;
+    top: 50px;
+}
+
+#three {
+    height: 1000px;
+    width: 145%;
+    margin-top: -50px;
+}
+
+#three h1 {
+    font-size: 5rem;
+    width: 645px;
+    display: block;
+    margin: 50px auto;
+    color: white;
+    text-shadow: 3px 5px 10px black;
+    position: relative;
+    top: 50px;
+    margin-bottom: 100px;
+}
+
+#four {
+    height: 1327px;
+    width: 138%;
+        background-color: #afbabc17;
+        margin-left: 45px;
+        margin-top: 150px;
+
+}
+
+#four h1 {
+    font-size: 5rem;
+    width: 659px;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    text-shadow: 3px 5px 10px black;
+    position: relative;
+    bottom: 100px;
+}
+
+.steps .para {
+    font-size: 3rem;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#five {
+    height: 294px;
+    width: 147%;
+    background-color: rgb(31, 30, 30);
+    margin-top: 50px;
+}
+
+#six {
+    height: 82px;
+    width: 147%;
+    background-color: rgb(31, 30, 30);
+    margin-top: 5px;
+}
+
+#six p {
+    font-size: 3rem;
+    width: 619px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+    color: white;
+}
+
+.information {
+    padding-top: 50px;
+    margin-left: 150px;
+    display: block;
+    width: 300px;
+}
+
+.information h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: white;
+}
+
+.information a {
+    font-size: 2.2rem;
+    color: grey;
+    text-decoration: none;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    top: -62px;
+}
+
+.contact a {
+    font-size: 2.3rem;
+    color: grey;
+    position: relative;
+    top: -65px;
+    text-decoration: none;
+}
+
+.pay h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    top: -143px;
+    width: 334px;
+}
+
+.pay p {
+    font-size: 2.2rem;
+    color: grey;
+    position: relative;
+    top: -141px;
+    text-decoration: none;
+}

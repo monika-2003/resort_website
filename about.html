@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #about{
+            height: 700px;
+            width: 100%;
+        }
+        #about h1{
+            width: 700px;
+            font-size: 3rem;
+            color: white;
+            text-shadow: 3px 3px 7px black;
+            display: block;
+            margin: 50px auto;
+            text-align: center;
+        }
+        #about .image{
+            background-color: grey;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 100px auto;
+        }
+        #about .content{
+            text-align: center;
+            font-size: 1.3rem;
+        }
+
+        .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 40px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    box-shadow: 1px 1px 18px 1px grey;
+  }
+
+  .list {
+    text-decoration: none;
+    display: block;
+    width: 139px;
+    margin-left: 30px;
+    padding-top: 17px;
+    padding-bottom: 23px;
+    margin-top: 34px;
+    font-size: 1.3rem;
+    transition: 0.3s;
+    padding-left: 50px;
+    color: grey;
+    border: 1px solid black;
+    box-shadow: 2px 5px 8px grey;
+}
+.list:hover{
+  box-shadow: none;
+  background: linear-gradient(45deg , grey , white);
+  color: white;
+}
+
+  #click{
+      width: 70px;
+      height:30px;
+      text-align: center;
+      display: inline-block;
+      cursor: pointer;
+      background-color: white;
+      padding: 2px 4px;
+      font-size: 1.3rem;
+      color: grey;
+      border-radius: 4px;
+      box-shadow: 1px 6px 10px grey;
+      position: absolute;
+      top: 25px;
+      left: 20px;
+      position: fixed;
+  }
+  #click:hover{
+      box-shadow: none;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #cross {
+    position: absolute;
+    top: -2px;
+    right: 23px;
+    cursor: pointer;
+    color: grey;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+#five{
+  height: 250px;
+  width: 100%;
+  background-color: rgb(31, 30, 30);
+  margin-top: 200px;
+}
+
+.information{
+  padding-top: 50px;
+  margin-left: 150px;
+  position: relative;
+  bottom: 40px;
+  display: block;
+  width: 300px;
+}
+.information h1{
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.information a{
+  font-size: 1.3rem;
+  color: grey;
+  text-decoration: none;
+}
+
+.contact{
+  position: relative;
+  left: 1200px;
+  bottom: 200px;
+  display: block;
+  width: 300px;
+}
+
+.contact h1{
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.contact a{
+  font-size: 1.3rem;
+  color: grey;
+  text-decoration: none;
+}
+
+.pay{
+  position: relative;
+  left: 650px;
+  bottom: 360px;
+  display: block;
+  width: 300px;
+}
+
+.pay h1{
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.pay p{
+  font-size: 1.3rem;
+  color: grey;
+  margin-bottom: -20px;
+}
+
+#six{
+  height: 60px;
+  width: 100%;
+  background-color: rgb(31, 30, 30);
+  margin-top: 5px;
+}
+
+#six p{
+  font-size: 1.2rem;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  color: white;
+}
+    </style>
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" id = "cross" class = "closebtn" onclick="closeNav()">&times;</a>
+    
+        <a href="index.html" class = "list">Home</a>
+        <a href="#" class = "list">About</a>
+        <a href="explore.html" class = "list">Explore</a>
+        <a href="log-in.html" class = "list">Log in</a>
+      </div>
+    
+      <span onclick = "openNav()" id = "click">open</span>
+    
+
+    <div id="about">
+        <h1>
+            Who we are and what are we aiming at
+        </h1>
+
+        <div class="image">
+            <!-- <img src="" alt=""> -->
+        </div>
+
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates asperiores fugiat autem laboriosam quos id, unde, 
+            commodi tempora dolorum explicabo aperiam. Vero non exercitationem modi distinctio saepe ullam, nesciunt libero similique 
+            animi deserunt voluptate a laboriosam amet molestiae inventore facere. Quis illo delectus officia, deleniti ex illum velit. 
+            Necessitatibus facere quas nulla est distinctio quam, delectus molestiae repellat dolorum dolorem minima unde perferendis 
+            nobis. Sapiente blanditiis atque incidunt placeat dolore saepe cum quo optio officia, quod dicta minus labore repellat 
+            fugit perferendis deserunt. Nulla libero aut, quae earum iure sit minus tempore eligendi cum aperiam possimus doloribus 
+            dolores! Officiis, suscipit!
+            <br> <br>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates asperiores fugiat autem laboriosam quos id, unde, 
+            commodi tempora dolorum explicabo aperiam. Vero non exercitationem modi distinctio saepe ullam, nesciunt libero similique 
+            animi deserunt voluptate a laboriosam amet molestiae inventore facere. Quis illo delectus officia, deleniti ex illum velit. 
+            Necessitatibus facere quas nulla est distinctio quam, delectus molestiae repellat dolorum dolorem minima unde perferendis 
+            nobis. Sapiente blanditiis atque incidunt placeat dolore saepe cum quo optio officia, quod dicta minus labore repellat 
+            fugit perferendis deserunt. Nulla libero aut, quae earum iure sit minus tempore eligendi cum aperiam possimus doloribus 
+            dolores! Officiis, suscipit!
+        </div>
+    </div>
+
+    <section id = "five">
+        <div class="information">
+          <h1>Information</h1>
+          <a href="index.html">Home</a><br>
+          <a href="about.html">About</a><br>
+          <a href="explore.html">Explore</a><br>
+        </div>
+        <div class="contact">
+          <h1>Contact</h1>
+          <a href="#">E-mail</a><br>
+          <a href="#">Facebook</a><br>
+          <a href="#">Instagram</a><br>
+        </div>
+        <div class="pay">
+          <h1>Payment Options</h1>
+          <p>Net banking</p>
+          <p>Cash</p>
+          <p>credit card</p>
+        </div>
+      </section>
+      
+      <section id = "six">
+        <p>Copyright &copy; all rights reserved</p>
+      </section>
+
+    <script>
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+         }
+  
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+    </script>
+    
+</body>
+</html>

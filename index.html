@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" type = "text/css" href="phone.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Neonderthaw&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+  </head>
+<body>
+
+ 
+
+    <section id="one">
+        <nav id = "navbar">
+            <a href="#">Home</a>
+            <a href="about.html">About</a>
+            <a href="explore.html">Explore</a>
+            <a href="log-in.html">Log in</a>
+        </nav>
+
+        <div class="icon">
+          <div id="message-box"><img src="./images/chat.png" alt="..." height="60px" width="60px">
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="messageH">
+            <div id = "close-btn">&times;</div>
+            Hello there!!
+          </div>
+          <div class="messageB">
+            <p>Text us for any query..</p>
+            <input type="text" placeholder="Enter here....">
+            <button>Submit</button>
+          </div>
+          <p id = "or">OR</p>
+          <div class="messageBu">
+            <p>Call us on</p>
+            <p>123456789</p>
+          </div>
+        </div>
+
+        <div id="front">
+            <h1>CLIEN &nbsp; RESORT</h1>
+            <h2>plan your vacations with us</h2>
+            <!-- <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maxime nihil recusandae sit eos numquam, cum quasi </p>
+            <p id = "p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, cumque!</p> -->
+        </div>
+    </section>
+
+    <section id="two">
+        <h1>Kind of rooms available</h1>
+
+<section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+        <div class="box">
+
+          <div class="item gallery-cell" id = "first" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease">
+            <img src="./images/single.png" alt="...">
+            <p>Single Room</p>
+            <button>Book Now</button>
+        </div>
+        <div class="item gallery-cell" id = "second" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease">
+            <img src="./images/double.jpg" alt="...">
+            <p>Double Room</p>
+            <button>Book Now</button>
+        </div>
+
+        </div>
+      <div class="carousel__snapper">
+        <a href="#carousel__slide3"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2"
+           class="carousel__next">Go to next slide</a>
+      </div>
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+        <div class="box">
+
+          <div class="item gallery-cell" id = "first" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease">
+            <img src="./images/deluxeroom.jpg" alt="...">
+            <p>Deluxe Room</p>
+            <button>Book Now</button>
+        </div>
+        <div class="item gallery-cell" id = "second" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease">
+            <img src="./images/SUPER-DELUXE-ROOM.jpg" alt="...">
+            <p>Super Deluxe Room</p>
+            <button>Book Now</button>
+        </div>
+
+        </div>
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide1"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+        <div class="box">
+
+          <div class="item gallery-cell" id = "first" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease">
+            <img src="./images/junior.jpg" alt="...">
+            <p>Junior Suit</p>
+            <button>Book Now</button>
+        </div>
+        <div class="item gallery-cell" id = "second" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease">
+            <img src="./images/predential.jpg" alt="...">
+            <p>Predential Suit</p>
+            <button>Book Now</button>
+        </div>
+
+        </div>
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide2"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1"
+         class="carousel__next">Go to first slide</a>
+    </li>
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button">Go to slide 1</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+    </ol>
+  </aside>
+</section>
+</section>
+
+
+<section id = "three">
+
+  <h1>Enjoy the facilities</h1>
+
+  <section class="carousel" aria-label="Gallery">
+    <ol class="carousel__viewport">
+      <li id="carousel__slide__one"
+          tabindex="0"
+          class="carousel__slide">
+          <div class="box">
+  
+            <div class="item gallery-cell" id = "first1" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease">
+              <img src="./images/spa.png" alt="...">
+              <p>Spa</p>
+          </div>
+          <div class="item gallery-cell" id = "second2" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease">
+              <img src="./images/gym.png" alt="...">
+              <p>Gym</p>
+          </div>
+  
+          </div>
+        <div class="carousel__snapper">
+          <a href="#carousel__slide__three"
+             class="carousel__prev">Go to last slide</a>
+          <a href="#carousel__slide__two"
+             class="carousel__next">Go to next slide</a>
+        </div>
+      </li>
+      <li id="carousel__slide__two"
+          tabindex="0"
+          class="carousel__slide">
+          <div class="box">
+  
+            <div class="item gallery-cell" id = "third3" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease">
+              <img src="./images/parking.png" alt="...">
+              <p>Parking</p>
+          </div>
+          <div class="item gallery-cell" id = "fourth4" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease">
+              <img src="./images/pool.png" alt="...">
+              <p>Pool</p>
+          </div>
+  
+          </div>
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide__one"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide__three"
+           class="carousel__next">Go to next slide</a>
+      </li>
+      
+      <li id="carousel__slide__three"
+          tabindex="0"
+          class="carousel__slide">
+          <div class="box">
+  
+            <div class="item gallery-cell" id = "fifth5" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease">
+              <img src="./images/swimming.jpg" alt="...">
+              <p>Swimming Pool</p>
+          </div>
+          <div class="item gallery-cell" id = "sixth6" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease">
+              <img src="./images/movie.jpg" alt="...">
+              <p>Movie Hall</p>
+          </div>
+  
+          </div>
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide__two"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide__one"
+           class="carousel__next">Go to first slide</a>
+      </li>
+    </ol>
+    <aside class="carousel__navigation">
+      <ol class="carousel__navigation-list">
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide__one"
+             class="carousel__navigation-button">Go to slide 1</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide__two"
+             class="carousel__navigation-button">Go to slide 2</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide__three"
+             class="carousel__navigation-button">Go to slide 3</a>
+        </li>
+      </ol>
+    </aside>
+  </section>
+</section>
+
+<section id = "four">
+  <h1>Steps to book room</h1>
+  <div class="steps">
+    <div class="onee"><p>1</p></div>
+    <p class = "para " style="width: 740px;">You can book the room from different room above shown</p>
+  </div>
+
+  <div class="steps">
+    <div class="onee" style="margin-top: 100px;"><p>2</p></div>
+    <p class = "para " style = "width: 690px">After clicking Book Now fill up the necessary details </p>
+  </div>
+
+  <div class="steps">
+    <div class="onee" style="margin-top: 100px;"><p>3</p></div>
+    <p class = "para " style = "width: 450px">choose any one option for paying</p>
+  </div>
+
+  <div class="steps">
+    <div class="onee" style="margin-top: 100px;"><p>4</p></div>
+    <p class = "para " style = "width: 380px">You are Done with booking</p>
+  </div>
+
+</section>
+
+<section id = "five">
+  <div class="information">
+    <h1>Information</h1>
+    <a href="index.html">Home</a><br>
+    <a href="about.html">About</a><br>
+    <a href="explore.html">Explore</a><br>
+  </div>
+  <div class="contact">
+    <h1>Contact</h1>
+    <a href="#">E-mail</a><br>
+    <a href="#">Facebook</a><br>
+    <a href="#">Instagram</a><br>
+  </div>
+  <div class="pay">
+    <h1>Payment Options</h1>
+    <p>Net banking</p>
+    <p>Cash</p>
+    <p>credit card</p>
+  </div>
+</section>
+
+<section id = "six">
+  <p>Copyright &copy; all rights reserved</p>
+</section>
+
+<!-- <section id = "five">
+  <h1>Contact Details</h1>
+  <div id="map">
+
+  </div>
+</section> -->
+    
+
+
+<!-- <script>
+  function initMap() {
+    var location = {};
+    var map = new google.maps.Map(document.getElementById("map") , {
+      zoom: 4,
+      center: location
+    });
+    // var marker = new
+  } 
+  </script>
+  -->
+
+ 
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script src = "index.js"></script>
+</body>
+</html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #signin{
+            height: 700px;
+            width: 100%;
+            background-color: #e0ecee45;
+        }
+        .signin-box{
+            height: 500px;
+            width: 400px;
+            display: block;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 3px 15px 10px grey;
+            position: relative;
+            top: 100px;
+          
+        }
+        h1{
+            color: white;
+            text-shadow: 2px 3px 6px black;
+            width: 150px;
+            position: relative;
+            top: 20px;
+            left: 150px;
+            font-size: 2.3rem;
+        }
+        form{
+            margin-top: 60px;
+            margin-left: 50px;
+        }
+        label{
+            font-size: 1.5rem;
+            color: grey;
+        }
+        input{
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            font-size: 1.3rem;
+            outline: none;
+            width: 300px;
+        }
+        a{
+            position: relative;
+            top: 30px;
+            left: 120px;
+            font-size: 1.1rem;
+            text-decoration: none;
+        }
+        button{
+            width: 150px;
+            height: 40px;
+            font-size: 1.3rem;
+            margin-left: 120px;
+            margin-top: 30px;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+            box-shadow: 3px 6px 7px grey;
+           
+        }
+        button:hover{
+            box-shadow: none;
+            color: grey;
+        }
+
+
+        
+        .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 40px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    box-shadow: 1px 1px 18px 1px grey;
+  }
+
+  .list {
+    text-decoration: none;
+    display: block;
+    width: 139px;
+    position: relative;
+    left:30px;
+    padding-top: 17px;
+    padding-bottom: 23px;
+    margin-top: 30px;
+    font-size: 1.3rem;
+    transition: 0.3s;
+    padding-left: 50px;
+    color: grey;
+    border: 1px solid black;
+    box-shadow: 2px 5px 8px grey;
+}
+.list:hover{
+  box-shadow: none;
+  background: linear-gradient(45deg , grey , white);
+  color: white;
+}
+
+  #click{
+      width: 70px;
+      height:30px;
+      text-align: center;
+      display: inline-block;
+      cursor: pointer;
+      background-color: white;
+      padding: 2px 4px;
+      font-size: 1.3rem;
+      color: grey;
+      border-radius: 4px;
+      box-shadow: 1px 6px 10px grey;
+      position: absolute;
+      top: 25px;
+      left: 20px;
+      position: fixed;
+  }
+  #click:hover{
+      box-shadow: none;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #cross {
+    position: absolute;
+    top: -2px;
+    right: 23px;
+    cursor: pointer;
+    color: grey;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+#five{
+  height: 250px;
+  width: 100%;
+  background-color: rgb(31, 30, 30);
+  margin-top: 50px;
+}
+
+.information{
+  padding-top: 50px;
+  margin-left: 120px;
+  display: block;
+  width: 300px;
+}
+.information h1{
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  position: relative;
+  left: 120px;
+}
+
+.information a{
+  font-size: 1.3rem;
+  color: grey;
+  text-decoration: none;
+}
+
+.contact{
+  position: relative;
+  left: 1000px;
+  bottom: 100px;
+  display: block;
+  width: 300px;
+}
+
+.contact h1{
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  position: relative;
+  left: 120px;
+}
+
+.contact a{
+  font-size: 1.3rem;
+  color: grey;
+  text-decoration: none;
+}
+
+.pay{
+  position: relative;
+  left: 650px;
+  bottom: 210px;
+  display: block;
+  width: 300px;
+}
+
+.pay h1{
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  width: 300px;
+  position: relative;
+  bottom: 80px; 
+  left: -5px;
+}
+
+.pay p{
+  font-size: 1.3rem;
+  color: grey;
+  text-decoration: none;
+  position: relative;
+  top: 30px;
+}
+
+#six{
+  height: 60px;
+  width: 100%;
+  background-color: rgb(31, 30, 30);
+  margin-top: 5px;
+}
+
+#six p{
+  font-size: 1.2rem;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  color: white;
+}
+    </style>
+</head>
+<body>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" id = "cross" class = "closebtn" onclick="closeNav()">&times;</a>
+    
+        <a href="index.html" class = "list">Home</a>
+        <a href="about.html" class = "list">About</a>
+        <a href="explore.html" class = "list">Explore</a>
+        <a href="#" class = "list">Log in</a>
+      </div>
+    
+      <span onclick = "openNav()" id = "click">open</span>
+    
+
+    <div id="signin">
+        <div class="signin-box">
+            <h1>Log in</h1>
+            <a href="#">create another account? </a>
+            <form action="">
+                <label for="name">User name :</label><br><br>
+                <input type="text"><br><br>
+                <label for="email">Email-id :</label><br><br>
+                <input type="email"><br><br>
+                <label for="password">Password :</label><br><br>
+                <input type="password"><br><br>
+            </form>
+            <button>Log in</button>
+        </div>
+    </div>
+
+    <section id = "five">
+        <div class="information">
+          <h1>Information</h1>
+          <a href="index.html">Home</a><br>
+          <a href="about.html">About</a><br>
+          <a href="explore.html">Explore</a><br>
+        </div>
+        <div class="contact">
+          <h1>Contact</h1>
+          <a href="#">E-mail</a><br>
+          <a href="#">Facebook</a><br>
+          <a href="#">Instagram</a><br>
+        </div>
+        <div class="pay">
+          <h1>Payment Options</h1>
+          <p>Net banking</p>
+          <p>Cash</p>
+          <p>credit card</p>
+        </div>
+      </section>
+      
+      <section id = "six">
+        <p>Copyright &copy; all rights reserved</p>
+      </section>
+
+    <script>
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+         }
+  
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+    </script>
+</body>
+</html>
